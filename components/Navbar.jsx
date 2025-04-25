@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
-import { lubalinFont } from '../public/fonts';
+import { lubalinFontD, lubalinFontM } from '../public/fonts';
 
 const Navbar = () => {
   return (
-    <div className='w-full h-20 flex justify-center pt-6'>
+    <div className='w-full h-max flex justify-center pt-6 bg-(--Header) pb-6'>
       {/* Main */}
-      <div className='bg-white w-11/12 flex items-center h-20 rounded-3xl'>
+      <div className='bg-white w-11/12 flex items-center h-20 rounded-3xl justify-between '>
         {/* Structure */}
         <div className='flex items-center pl-6 gap-2'>
           {/* Brand*/}
@@ -18,9 +18,13 @@ const Navbar = () => {
             className='object-contain'
           />
           <div className='w-1 h-11 bg-(--AD)'></div>
-          <div className={`${lubalinFont.className} text-(--ADT) text-2xl pl-4`} >Akshitdesigns.</div>
+          <div className={`${lubalinFontD.className} text-(--ADT) text-2xl pl-4`} >Akshitdesigns.</div>
         </div>
-        <div>
+        <div className='flex items-center gap-16 w-max text-nowrap pr-10'>
+          <div className={`${lubalinFontD.className}  text-(--ADT)`}>Home</div>
+          <div className={`${lubalinFontM.className}  text-(--ADT)`}>About us</div>
+          <div className={`${lubalinFontM.className}  text-(--ADT)`}>Services</div>
+          <div className={`${lubalinFontM.className}  text-white bg-(--ADC) w-1/4 px-4 py-3 rounded-2xl text-center flex`}>Contact Us</div>
           {/*Navigation*/}
         </div>
       </div>
