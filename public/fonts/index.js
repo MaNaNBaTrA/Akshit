@@ -23,3 +23,9 @@ export const ForzaB= localFont({
   variable: '--font-lubalin',
   display: 'swap',
 })
+
+export const ExoB= localFont({
+  src: './Exo-Bold.otf',
+  variable: '--font-lubalin',
+  display: 'swap',
+})

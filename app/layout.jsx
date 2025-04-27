@@ -1,5 +1,5 @@
 import "./globals.css";
-import { lubalinFontD, lubalinFontM , ExoDB , ForzaB} from '../public/fonts'
+import { lubalinFontD, lubalinFontM , ExoDB , ForzaB ,ExoB} from '../public/fonts'
 
 export const metadata = {
   title: "Akshit",
@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${lubalinFontD.variable} ${lubalinFontM.variable} ${ExoDB.variable}${ForzaB.variable}`}>
+    <html lang="en" className={`${lubalinFontD.variable} ${lubalinFontM.variable} ${ExoDB.variable} ${ForzaB.variable} ${ExoB.variable}`}>
       <body>{children}</body>
     </html>
   );
