@@ -21,10 +21,10 @@ const Navbar = () => {
           <div className={`${lubalinFontD.className} text-(--ADT) text-2xl pl-4`} >Akshitdesigns.</div>
         </div>
         <div className='flex items-center gap-16 w-max text-nowrap pr-10'>
-          <div className={`${lubalinFontD.className}  text-(--ADT)`}>Home</div>
-          <div className={`${lubalinFontM.className}  text-(--ADT)`}>About us</div>
-          <div className={`${lubalinFontM.className}  text-(--ADT)`}>Services</div>
-          <div className={`${lubalinFontM.className}  text-white bg-(--ADC) w-1/4 px-4 py-3 rounded-2xl text-center flex`}>Contact Us</div>
+          <div className={`${lubalinFontD.className}  text-(--ADT) cursor-pointer hover:underline hover:underline-offset-2`}>Home</div>
+          <div className={`${lubalinFontM.className}  text-(--ADT) cursor-pointer hover:underline hover:underline-offset-2`}>About us</div>
+          <div className={`${lubalinFontM.className}  text-(--ADT) cursor-pointer hover:underline hover:underline-offset-2`}>Services</div>
+          <div className={`${lubalinFontM.className}  text-white bg-(--ADC) w-1/4 px-4 py-3 rounded-2xl text-center flex cursor-pointer`}>Contact Us</div>
           {/*Navigation*/}
         </div>
       </div>

@@ -18,7 +18,7 @@ const Header = () => {
                     <div className={` ${ExoDB.className} text-(--HT2) text-sm`}>A graphic designer bringing 4 years of hands-on experience to the table, passionate
                         about crafting engaging visual experiences and specializing in impactful design solutions
                     </div>
-                    <div className={`${lubalinFontM.className}  text-white bg-(--ADC) px-10 py-3 rounded-2xl text-center flex w-max text-sm `}>Hire Me</div>
+                    <div className={`${lubalinFontM.className}  text-white bg-(--ADC) px-10 py-3 rounded-2xl text-center flex w-max text-sm cursor-pointer`}>Hire Me</div>
                 </div>
                 <div className='relative w-full '>
                     <Image
